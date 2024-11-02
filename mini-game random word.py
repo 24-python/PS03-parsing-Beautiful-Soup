@@ -42,7 +42,7 @@ def word_game():
             print(f"Ответ неверный, было загадано это слово - {word}")
 
         # Создаём возможность закончить игру
-        play_again = input("Хотите сыграть еще раз? y/n")
+        play_again = input("Хотите сыграть еще раз? y/n ")
         if play_again != "y":
             print("Спасибо за игру!")
             break
